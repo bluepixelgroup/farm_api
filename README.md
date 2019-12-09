@@ -16,9 +16,9 @@ python manage.py runserver
 
 For each person the API returns all attributes from the model + some other related objects. Related objects included:
 
-    - `relatives` - array with all the relatives of this person
-    - `farmer` - farmer object associated with this person, if this person is not a farmer this field is not included
-    - `fieldman` - fieldman object associated with this person, if this person is not a fieldman this field is not included
+- `relatives` - array with all the relatives of this person
+- `farmer` - farmer object associated with this person, if this person is not a farmer this field is not included
+- `fieldman` - fieldman object associated with this person, if this person is not a fieldman this field is not included
 
 For each farmer the API returns all attributes from the model, for `person` related object, only the id is included, not the whole `person` object.
 
